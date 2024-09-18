@@ -1,0 +1,38 @@
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+}
+
+table {
+    text-align: left;
+    border-spacing: 20px;
+}
+
+table thead tr th, table tbody tr td {
+    padding: 5px 50px 5px 2px;
+}
+
+.h1El, .h2El, .h3El {
+    padding: 1px 20px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.h1El {
+    background-color: rgb(226, 226, 226);
+}
+
+.h2El {
+    background-color: rgb(238, 237, 237);
+}
+
+.h3El {
+    background-color: rgb(241, 240, 240);
+}
