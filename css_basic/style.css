@@ -36,3 +36,10 @@ table thead tr th, table tbody tr td {
 .h3El {
     background-color: rgb(241, 240, 240);
 }
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-top: 1px solid rgb(221,221,221);
+}
